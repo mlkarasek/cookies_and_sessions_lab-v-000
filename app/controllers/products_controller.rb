@@ -1,6 +1,6 @@
 class ProductsController < ApplicationController
   def index
-@products = Product.all 
+    @products = Product.all
   end
 
   def add
@@ -8,6 +8,6 @@ class ProductsController < ApplicationController
     redirect_to '/'
   end
 
-  
+
 
 end
